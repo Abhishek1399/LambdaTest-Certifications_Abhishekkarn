@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T14:25:21Z" name="Surefire suite" finished-at="2024-07-03T14:25:25Z" duration-ms="4052">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T14:25:21Z" name="Surefire test" finished-at="2024-07-03T14:25:25Z" duration-ms="4052">
+      <class name="abhisheklearning.AllTests">
+        <test-method signature="Test_Scenario1()[pri:1, instance:abhisheklearning.AllTests@1608bcbd]" started-at="2024-07-03T14:25:21Z" name="Test_Scenario1" finished-at="2024-07-03T14:25:22Z" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Scenario1 -->
+        <test-method signature="Test_Scenario3()[pri:3, instance:abhisheklearning.AllTests@1608bcbd]" started-at="2024-07-03T14:25:22Z" name="Test_Scenario3" finished-at="2024-07-03T14:25:25Z" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Scenario3 -->
+      </class> <!-- abhisheklearning.AllTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

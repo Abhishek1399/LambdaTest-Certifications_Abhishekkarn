@@ -101,7 +101,7 @@ public class AllTests {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         WebElement submit = driver.findElement(By.cssSelector("#seleniumform > div.text-right.mt-20 > button"));
         submit.click();
-       WebElement Name = driver.findElement(By.id("name"));
+        WebElement Name = driver.findElement(By.id("name"));
         String pleasefilloutthisform = Name.getAttribute("required");
         Assert.assertTrue(true, pleasefilloutthisform);
         String errormsg = "Please fill out this field.";
@@ -159,11 +159,10 @@ public class AllTests {
         WebElement Zipcode =  driver.findElement(By.xpath("//*[@id='inputZip']"));
         Zipcode.sendKeys("111111");
 
-
         submit.click();
-       String submit_msg = "Thanks for contacting us, we will get back to you shortly.";
-        String actual_submit = driver.findElement(By.xpath("//p[@class='success-msg hidden']")).getText().trim();
-       Assert.assertEquals(actual_submit, submit_msg);
+        String submit_msg = "Thanks for contacting us, we will get back to you shortly.";
+        String actual_msg = driver.findElement(By.xpath("//p[@class='success-msg hidden']")).getText().trim();
+       Assert.assertEquals(actual_msg, submit_msg);
        driver.quit();
 }
 }
